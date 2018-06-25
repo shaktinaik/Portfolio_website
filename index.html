@@ -1,3 +1,16 @@
+<?php
+require_once('mail/mysql_connect.php');
+mysql_query("UPDATE viewcounter SET `views` = `views`+1 WHERE id = '1'");
+
+$sql = mysql_query("SELECT * FROM viewcounter WHERE id = '1'");
+while($row = mysql_fetch_array($sql)){
+    $id = $row["id"];
+    $pagename = $row["pagename"];
+    $views = $row["views"];
+};
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -246,9 +259,8 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About Me</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+            <h4 class="text-uppercase mb-4">Total Page Viewed</h4>
+            <p class="lead mb-0"> <?php print $views; ?> </p>
           </div>
         </div>
       </div>
