@@ -158,7 +158,7 @@ while($row = mysql_fetch_array($sql)){
             <p class="lead">My name is Shakti Naik and I am a full time full stack web developer. Currently I am working in a software farm and looking for challenging opportunity.</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">If you are looking to build your own website or build an exciting app for your requirement I am the person you can <a href="#contact">contact</a> to. For more information on my qualifaction please download my short resume below.</p>
+            <p class="lead">If you are looking to build your own website or an exciting moblie app I am the person you can contact to. To know more about me please download my short resume below.</p>
           </div>
         </div>
         <div class="text-center mt-4">
