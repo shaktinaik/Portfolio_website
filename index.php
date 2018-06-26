@@ -155,10 +155,10 @@ while($row = mysql_fetch_array($sql)){
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p class="lead">My name is Shakti Naik and I am a full time full stack web developer. Currently I am working in a software farm and looking for challenging opportunity.</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p class="lead">If you are looking to build your own website or build an exciting app for your requirement I am the person you can <a href="#contact">contact</a> to. For more information on my qualifaction please download my short resume below.</p>
           </div>
         </div>
         <div class="text-center mt-4">
