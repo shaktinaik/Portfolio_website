@@ -61,7 +61,7 @@ while($row = mysql_fetch_array($sql)){
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
             </li>
 			<li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://shaktinaik.com/blog/">Blog</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://shaktinaik.com/blog">Blog</a>
             </li>
           </ul>
         </div>
@@ -179,7 +179,7 @@ while($row = mysql_fetch_array($sql)){
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <form name="sentMessage" id="contactForm" novalidate="novalidate" action="mail/contact_me.php" method="get">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
