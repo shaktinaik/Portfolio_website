@@ -1,5 +1,5 @@
 <?php
-require_once('mail/mysql_connect.php');
+require_once('scripts/mysql_connect.php');
 mysql_query("UPDATE viewcounter SET `views` = `views`+1 WHERE id = '1'");
 
 $sql = mysql_query("SELECT * FROM viewcounter WHERE id = '1'");
