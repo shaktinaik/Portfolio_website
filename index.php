@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 require_once('scripts/mysql_connect.php');
 mysql_query("UPDATE viewcounter SET `views` = `views`+1 WHERE id = '1'");
 
