@@ -162,7 +162,7 @@ while($row = mysqli_fetch_array($sql)){
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="Doccuments/my_resume.pdf">
+          <a class="btn btn-xl btn-outline-light" href="document/my_resume.pdf">
             <i class="fa fa-download mr-2"></i>
             Download Now!
           </a>
@@ -348,7 +348,7 @@ while($row = mysqli_fetch_array($sql)){
     </div>
 
     <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    <!-- <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -367,10 +367,10 @@ while($row = mysqli_fetch_array($sql)){
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+    <!-- <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -389,10 +389,10 @@ while($row = mysqli_fetch_array($sql)){
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+    <!-- <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -411,7 +411,7 @@ while($row = mysqli_fetch_array($sql)){
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
