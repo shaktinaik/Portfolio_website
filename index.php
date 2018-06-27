@@ -36,7 +36,7 @@ while($row = mysqli_fetch_array($sql)){
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
-
+    <link href="img/favicon.png" rel="icon" type="image/png" />
   </head>
 
   <body id="page-top">
