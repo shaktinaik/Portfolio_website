@@ -114,7 +114,7 @@ while($row = mysqli_fetch_array($sql)){
               <img class="img-fluid" src="img/portfolio/circus.png" alt="">
             </a>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <!-- <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -123,8 +123,8 @@ while($row = mysqli_fetch_array($sql)){
               </div>
               <img class="img-fluid" src="img/portfolio/game.png" alt="">
             </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
+          </div> -->
+          <!-- <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -133,8 +133,8 @@ while($row = mysqli_fetch_array($sql)){
               </div>
               <img class="img-fluid" src="img/portfolio/safe.png" alt="">
             </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
+          </div> -->
+          <!-- <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -143,7 +143,7 @@ while($row = mysqli_fetch_array($sql)){
               </div>
               <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
