@@ -1,10 +1,9 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 require_once('scripts/mysql_connect.php');
-mysql_query("UPDATE viewcounter SET `views` = `views`+1 WHERE id = '1'");
-
-$sql = mysql_query("SELECT * FROM viewcounter WHERE id = '1'");
-while($row = mysql_fetch_array($sql)){
+mysqli_query($conn, "UPDATE viewcounter SET `views` = `views`+1 WHERE id = '1'");
+$sql = mysqli_query($conn, "SELECT * FROM viewcounter WHERE id = '1'");
+while($row = mysqli_fetch_array($sql)){
     $id = $row["id"];
     $pagename = $row["pagename"];
     $views = $row["views"];
@@ -156,14 +155,14 @@ while($row = mysql_fetch_array($sql)){
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">My name is Shakti Naik and I am a full time full stack web developer. Currently I am working in a software farm and looking for challenging opportunity.</p>
+            <p class="lead">My name is Shakti Naik and I am a part time full stack web developer. Currently I am working in a software farm and looking for challenging opportunity.</p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead">If you are looking to build your own website or an exciting moblie app I am the person you can contact to. To know more about me please download my short resume below.</p>
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
+          <a class="btn btn-xl btn-outline-light" href="Doccuments/my_resume.pdf">
             <i class="fa fa-download mr-2"></i>
             Download Now!
           </a>
