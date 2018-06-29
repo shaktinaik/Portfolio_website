@@ -1,9 +1,9 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 require_once('scripts/mysql_connect.php');
-mysqli_query($conn, "UPDATE viewcounter SET `views` = `views`+1 WHERE id = '1'");
-$sql = mysqli_query($conn, "SELECT * FROM viewcounter WHERE id = '1'");
-while($row = mysqli_fetch_array($sql)){
+mysql_query("UPDATE viewcounter SET views = views+1 WHERE id = '1'");
+$sql = mysql_query("SELECT * FROM viewcounter WHERE id = '1'");
+while($row = mysql_fetch_array($sql)){
     $id = $row["id"];
     $pagename = $row["pagename"];
     $views = $row["views"];

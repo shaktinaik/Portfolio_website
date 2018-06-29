@@ -5,11 +5,16 @@ $db_username = "shakguqg";
 $db_password = "power123$";
 $db_name = "shakguqg_data";
 
-$conn = mysqli_connect($db_host, $db_username, $db_password, $db_name);
+$conn = mysql_connect($db_host, $db_username, $db_password);
 
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if (!$conn) {
+    die("Connection failed: " . mysql_error());
+}
+$db_select = mysql_select_db($db_name,$conn);
+
+if(!$db_select){
+    die("Database selection failed: " . mysql_error());
 }
 
 ?>
