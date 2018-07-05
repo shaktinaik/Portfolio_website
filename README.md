@@ -4,6 +4,6 @@
 
 ## Preview
 
-[![Full Stack Developer](https://shaktinaik.com/img/WebSite Layout.JPG)](https://shaktinaik.com/)
+[![Full Stack Developer](https://github.com/shaktinaik/Portfolio_website/blob/master/img/WebSite-Layout.JPG)](https://shaktinaik.com/)
 
 **[View Live Preview](https://shaktinaik.com/)**
