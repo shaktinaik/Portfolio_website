@@ -61,7 +61,7 @@ while($row = mysql_fetch_array($sql)){
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
             </li>
 			<li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://shaktinaik.com/blog">Blog</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://shaktinaik.com/blog" target="_blank">Blog</a>
             </li>
           </ul>
         </div>
@@ -125,14 +125,14 @@ while($row = mysql_fetch_array($sql)){
         <hr class="star-light mb-5" align="middle">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">I am Shakti Naik and a Full Stack Developer. Currently I am working in a software firm and looking for challenging opportunity.</p>
+            <p class="lead">I am Shakti Naik, a Full Stack Developer. Currently I am working in a software firm and looking for challenging opportunity.</p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead">If you are looking to build your own website or an exciting moblie app I am the person you can contact to. To know more about me please download my resume below.</p>
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="document/my_resume.pdf">
+          <a class="btn btn-xl btn-outline-light" href="document/my_resume.pdf" target="_blank">
             <i class="fa fa-download mr-2"></i>
             Download Now!
           </a>
@@ -200,27 +200,27 @@ while($row = mysql_fetch_array($sql)){
             <h4 class="text-uppercase mb-4">Around the Web</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/shakti59">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/shakti59" target="_blank">
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://plus.google.com/u/0/110951258624452023745">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://plus.google.com/u/0/110951258624452023745" target="_blank">
                   <i class="fa fa-fw fa-google-plus"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/I_m_Shakti">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/I_m_Shakti" target="_blank">
                   <i class="fa fa-fw fa-twitter"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/shakti-naik-3938665b/">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/shakti-naik-3938665b/" target="_blank">
                   <i class="fa fa-fw fa-linkedin"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://dribbble.com/shakti59">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://dribbble.com/shakti59" target="_blank">
                   <i class="fa fa-fw fa-dribbble"></i>
                 </a>
               </li>
