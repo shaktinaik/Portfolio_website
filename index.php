@@ -37,6 +37,9 @@ while($row = mysql_fetch_array($sql)){
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link href="img/favicon.png" rel="icon" type="image/png" />
+
+    <!-- Second counter js script -->
+    <script src="js/timer.js"></script>
   </head>
 
   <body id="page-top">
@@ -139,6 +142,15 @@ while($row = mysql_fetch_array($sql)){
         </div>
       </div>
     </section>
+
+    <!-- Timer Section -->
+    <div class="timer"style="margin:auto;">
+      <p style="line-height: 50px; text-align:center;font-family:cursive;font-size:1.25rem;font-weight:300;width:auto;padding-left:257px;padding-right:257px;">Hi, You've just spent 
+        <span id = "time-in-second" style="color:red;">
+          <script>startCounting();</script>
+        </span> secs looking at my homepage. Please drop a message below and let me learn about you or If you would like to hire me please fill in the form and get a free quote.
+      </p>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact">
