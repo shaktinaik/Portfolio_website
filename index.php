@@ -38,8 +38,6 @@ while($row = mysql_fetch_array($sql)){
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link href="img/favicon.png" rel="icon" type="image/png" />
 
-    <!-- Second counter js script -->
-    <script src="js/timer.js"></script>
   </head>
 
   <body id="page-top">
@@ -74,7 +72,7 @@ while($row = mysql_fetch_array($sql)){
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="" onContextMenu="return false;">
         <h1 class="text-uppercase mb-0">Shakti Naik</h1>
         <hr class="star-light" align="middle">
         <h2 class="font-weight-light mb-0">Full Stack Developer</h2>
@@ -85,7 +83,7 @@ while($row = mysql_fetch_array($sql)){
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5" align="middle">
+        <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
@@ -94,7 +92,7 @@ while($row = mysql_fetch_array($sql)){
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+              <img class="img-fluid" src="img/portfolio/education.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -104,7 +102,7 @@ while($row = mysql_fetch_array($sql)){
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+              <img class="img-fluid" src="img/portfolio/technology.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -114,7 +112,7 @@ while($row = mysql_fetch_array($sql)){
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+              <img class="img-fluid" src="img/portfolio/experience.png" alt="">
             </a>
           </div>
         </div>
@@ -144,8 +142,8 @@ while($row = mysql_fetch_array($sql)){
     </section>
 
     <!-- Timer Section -->
-    <div class="timer"style="margin:auto;">
-      <p style="line-height: 50px; text-align:center;font-family:cursive;font-size:1.25rem;font-weight:300;width:auto;padding-left:257px;padding-right:257px;">Hi, You've just spent 
+    <div style="margin:auto;"  class="col-md-10 col-lg-12">
+      <p style="line-height: 50px; text-align:center;font-family:Loto;font-size:1.5rem;font-weight:300;width:auto;padding-left:15%;padding-right:15%;">Hi, You've just spent 
         <span id = "time-in-second" style="color:red;">
           <script>startCounting();</script>
         </span> secs looking at my homepage. Please drop a message below and let me learn about you or If you would like to hire me please fill in the form and get a free quote.
@@ -269,14 +267,25 @@ while($row = mysql_fetch_array($sql)){
         </a>
         <div class="container text-center">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <div class="col-lg-4 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Education</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Future place for something very cool.</p>
+              
+              <p class="mb-4" style="font-size:1.25rem;">Veer Surendra Sai University of Technology, Burla</p>
+              <p class="mb-4" style="font-size:1rem;">July, 2011 - May, 2015</p>
+              <p class="mb-4" style="font-size:1rem;">I completed my graduation in Electrical and Electronics Engineering stream. </p><hr>
+
+              <p class="mb-4" style="font-size:1.25rem;">Kalinga Bharati Residential College, Cuttack</p>
+              <p class="mb-4" style="font-size:1rem;">May, 2008 - May, 2010</p>
+              <p class="mb-4" style="font-size:1rem;">I completed my 12th here. </p><hr>
+
+              <p class="mb-4" style="font-size:1.25rem;">Sundargarh Public School, Sundargarh</p>
+              <p class="mb-4" style="font-size:1rem;">Till May, 2010</p>
+              <p class="mb-4" style="font-size:1rem;">I completed my 10th here.</p>
+
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                Close</a>
             </div>
           </div>
         </div>
@@ -291,14 +300,25 @@ while($row = mysql_fetch_array($sql)){
         </a>
         <div class="container text-center">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <div class="col-lg-4 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Technology Stack</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Future place for something very cool.</p>
+              
+              <p class="mb-4" style="font-size:1.25rem;">Front End</p>
+              <p class="mb-4" style="font-size:1rem;">HTML5, CSS3, JavaScript, Bootstrap, Angular</p><hr>
+
+              <p class="mb-4" style="font-size:1.25rem;">Back End</p>
+              <p class="mb-4" style="font-size:1rem;">Java, Python, NodeJS, PHP</p><hr>
+
+              <p class="mb-4" style="font-size:1.25rem;">Database</p>
+              <p class="mb-4" style="font-size:1rem;">Oracle database, MySQL, MongoDB</p><hr>
+
+              <p class="mb-4" style="font-size:1.25rem;">Big Data Ecosystem</p>
+              <p class="mb-4" style="font-size:1rem;">Hadoop, Map Reduce, Apache Spark using Scala, Hive, PySpark</p>
+
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                Close</a>
             </div>
           </div>
         </div>
@@ -313,14 +333,16 @@ while($row = mysql_fetch_array($sql)){
         </a>
         <div class="container text-center">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <div class="col-lg-4 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Work Experience</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Future place for something very cool.</p>
+              
+              <p class="mb-4" style="font-size:1.25rem;">June 2015 - Cont.</p>
+              <p class="mb-4" style="font-size:1rem;">Curently working in a MNC Software Firm as a full Stack Developer using Angular and NodeJS. I have also 1+ year working experience in BigData hadoop framework using Spark technology to analyze data present in remote clusters.</p>
+
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                Close</a>
             </div>
           </div>
         </div>
@@ -341,6 +363,9 @@ while($row = mysql_fetch_array($sql)){
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+
+    <!-- Second counter js script -->
+    <script src="js/timer.js"></script>
 
   </body>
 
